@@ -1,0 +1,36 @@
+{
+  "manifestVersion": 1,
+  "$schema": "schemas/manifest-v1.schema.json",
+  "corpus": {
+    "name": "crypto-test-vectors",
+    "version": "2026.09.1",
+    "built": "2026-09-02T10:14:03Z",
+    "generator": {
+      "tool": "pack.py",
+      "version": "0.4.2"
+    },
+    "fileCount": 218
+  },
+  "files": [
+    {
+      "path": "vectors/acvp/FIPS-203",
+      "sha256": "",
+      "size": ,
+      "provenance": "acvp",
+      "format": "acvp",
+      "algorithm": "ML-KEM",
+      "parameterSets": [
+        "ML-KEM-512",
+        "ML-KEM-768",
+        "ML-KEM-1024"
+      ],
+      "upstream": {
+        "source": "usnistgov/ACVP",
+        "document": "draft-celi-acvp-ml-kem-01",
+        "retrieved": "2026-08-20"
+      },
+      "licence": "NIST-PD",
+      "notes": "structure per draft; schema is a local interpretation"
+    }
+  ]
+}
